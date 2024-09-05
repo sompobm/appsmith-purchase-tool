@@ -92,6 +92,8 @@ export default {
 
 	async deletePurchease(record){  
 		await queryPurchaseDelete.run({uuid:record.uuid});
+		await queryLogInsert.run({uuid:appsmith.store.purchase_id,status : record.status,description:"delete purchase"})
+	
 		await queryPurchaseList.run();
 		showAlert("success","success")
 	}
