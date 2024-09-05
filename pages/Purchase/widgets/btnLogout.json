@@ -40,7 +40,7 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "onClick": "{{navigateTo('https://sso.clicksbiz.com/realms/SCGJWD-Portal/protocol/openid-connect/logout?redirect_uri=https://appsmith.clicksbiz.com/app/purchase-request/login-66d80e85444411108d7b0c48', {}, 'SAME_WINDOW');}}",
+  "onClick": "{{KeyClock.logout();}}",
   "originalBottomRow": 49,
   "originalTopRow": 45,
   "parentColumnSpace": 16.109375,

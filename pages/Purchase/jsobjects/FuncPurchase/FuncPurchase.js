@@ -41,7 +41,7 @@ export default {
 		showAlert( FilePicker1Copy.files[0].name)
 		await queryFileInsert.run(
 			{ uuid : appsmith.store.purchase_id,
-			 file_name : FilePicker1Copy.files[0].name, 
+			 file_name : appsmith.store.purchase_id+"_"+FilePicker1Copy.files[0].name, 
 			 file_url:data.signedUrl,
 			})
 

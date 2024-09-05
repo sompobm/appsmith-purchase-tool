@@ -34,17 +34,17 @@
     "customColumn2",
     "file_url",
     "id",
+    "file_name",
     "purchase_id",
-    "customColumn1",
     "file_description",
-    "create_date",
-    "file_name"
+    "create_date"
   ],
-  "columnUpdatedAt": 1725462946083,
+  "columnUpdatedAt": 1725501943339,
   "columnWidthMap": {
     "customColumn1": 291,
     "customColumn2": 84,
     "file_description": 442,
+    "file_name": 531,
     "file_url": 105
   },
   "defaultPageSize": 0,
@@ -81,9 +81,6 @@
     },
     {
       "key": "primaryColumns.create_date.computedValue"
-    },
-    {
-      "key": "primaryColumns.customColumn1.computedValue"
     },
     {
       "key": "primaryColumns.file_name.computedValue"
@@ -170,39 +167,6 @@
       "originalId": "create_date",
       "sticky": "",
       "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "customColumn1": {
-      "alias": "",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "text",
-      "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"file_name\"]))}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "customColumn1",
-      "index": 5,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "file_name",
-      "labelColor": "#FFFFFF",
-      "notation": "standard",
-      "originalId": "customColumn1",
-      "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},

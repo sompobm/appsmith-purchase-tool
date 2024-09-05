@@ -57,7 +57,7 @@
           }
         },
         "path": {
-          "data": "purchase/{{FilePicker1Copy.files[0].name}}"
+          "data": "purchase/{{appsmith.store.purchase_id}}+\"_\"+{{FilePicker1Copy.files[0].name}}"
         },
         "read": {
           "dataType": {

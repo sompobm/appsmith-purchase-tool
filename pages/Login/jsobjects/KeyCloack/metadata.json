@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66d7da81444411108d7b0c10_cffc6dda-9664-4414-93a4-df59c278548e",
+  "id": "Login_KeyCloack",
+  "unpublishedCollection": {
+    "name": "KeyCloack",
+    "pageId": "Login",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
