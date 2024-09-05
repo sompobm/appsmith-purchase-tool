@@ -1,0 +1,3 @@
+update purchase_request  
+set is_delete = 1
+where uuid = {{this.params.uuid}}

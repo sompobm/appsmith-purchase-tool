@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66d7da81444411108d7b0c10_c6c6edc7-019e-468a-813d-18112bd278d9",
+  "id": "Purchase_LogHelper",
+  "unpublishedCollection": {
+    "name": "LogHelper",
+    "pageId": "Purchase",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

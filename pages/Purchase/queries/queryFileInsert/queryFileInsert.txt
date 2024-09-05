@@ -1,0 +1,6 @@
+insert into purchase_request_file 
+(purchase_id,file_name,file_url,create_date)
+VALUES
+({{this.params.uuid}},
+ {{this.params.file_name}}, 
+ {{this.params.file_url}},now())

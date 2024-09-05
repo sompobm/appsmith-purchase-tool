@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66d7da81444411108d7b0c10_3a1c73f6-a6da-44c6-a099-c1d49f62f389",
+  "id": "Verify_auth",
+  "unpublishedCollection": {
+    "name": "auth",
+    "pageId": "Verify",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

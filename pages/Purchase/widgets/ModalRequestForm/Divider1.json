@@ -1,0 +1,52 @@
+{
+  "animateLoading": true,
+  "bottomRow": 29,
+  "capSide": 0,
+  "capType": "nc",
+  "displayName": "Divider",
+  "dividerColor": "#858282",
+  "dynamicBindingPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.2903cd917d4a4a08afe7e1377c2adc93.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "a64285syn9",
+  "leftColumn": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 29,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "orientation": "horizontal",
+  "originalBottomRow": 29,
+  "originalTopRow": 25,
+  "parentColumnSpace": 14.59375,
+  "parentId": "s0rngwey8o",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "searchTags": [
+    "line"
+  ],
+  "strokeStyle": "solid",
+  "tags": [
+    "Layout"
+  ],
+  "thickness": 2,
+  "thumbnailSVG": "/static/media/thumbnail.85250b0a5e6d690bf6499c965e769b14.svg",
+  "topRow": 25,
+  "type": "DIVIDER_WIDGET",
+  "version": 1,
+  "widgetId": "rkz81cxq8c",
+  "widgetName": "Divider1"
+}

@@ -1,0 +1,6 @@
+update purchase_request 
+set 
+ request_by ={{this.params.request_by}},
+ require_date={{this.params.require_date}},
+ request_description={{this.params.request_description}}
+where uuid = {{this.params.uuid}}

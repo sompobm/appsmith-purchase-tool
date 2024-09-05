@@ -1,0 +1,2 @@
+SELECT * FROM purchase_request_log where purchase_id = {{this.params.uuid}}
+ORDER by create_date DESC

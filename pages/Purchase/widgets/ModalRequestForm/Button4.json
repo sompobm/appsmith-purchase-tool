@@ -1,0 +1,72 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 67,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7a418b9e1899a550d7e8f33b48cbde12.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vt8y49rb67",
+  "leftColumn": 31,
+  "minWidth": 120,
+  "mobileBottomRow": 76,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 72,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onClick": "{{FuncPurchase.savePurchease();}}",
+  "originalBottomRow": 67,
+  "originalTopRow": 63,
+  "parentColumnSpace": 14.59375,
+  "parentId": "s0rngwey8o",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 47,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "text": "Submit",
+  "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
+  "topRow": 63,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "dprotl8vb0",
+  "widgetName": "Button4"
+}

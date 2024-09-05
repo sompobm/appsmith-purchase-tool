@@ -1,0 +1,1 @@
+SELECT * FROM purchase_request_file where purchase_id = {{this.params.uuid}}

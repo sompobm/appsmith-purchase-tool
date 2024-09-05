@@ -1,0 +1,40 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#F3F1C7",
+  "evaluationVersion": 2,
+  "icon": "camera",
+  "pages": [
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "Purchase",
+      "isDefault": false
+    },
+    {
+      "id": "Verify",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  }
+}

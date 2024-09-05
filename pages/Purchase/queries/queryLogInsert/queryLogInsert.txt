@@ -1,0 +1,4 @@
+INSERT INTO purchase_request_log
+(purchase_id,status,description,create_date)
+VALUES
+({{this.params.uuid}},{{this.params.status}},{{this.params.description}},now())

@@ -1,0 +1,10 @@
+insert into purchase_request
+(uuid,request_by,request_date,require_date,request_description,status)
+VALUES
+({{this.params.uuid}},
+ {{this.params.request_by}},
+  now(),
+ {{this.params.require_date}},
+ {{this.params.request_description}},
+ {{this.params.status}}
+)

@@ -1,0 +1,1 @@
+SELECT * FROM purchase_request where is_delete=0 LIMIT 1000;
